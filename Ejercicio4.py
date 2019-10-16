@@ -1,0 +1,5 @@
+nombre=('Pedro', 'Mario', 'Juan')
+print("Hay un total de "+str(len(nombre))+" nombres")
+print("Dame un número para mostrar")
+seleccion=int(input())
+print("Has escogido el nombre número ", seleccion, " que es el nombre ", nombre[seleccion-1])
