@@ -4,9 +4,7 @@ salida="salida"
 entrada=(input("Ingresa un nombre: "))
 while entrada!=salida and entrada!=clave:
     entrada=(input("Ingresa un nombre: "))
-if entrada=="pepe":
+if entrada==clave:
     print("Has acertado")
-elif entrada=="salir":
+elif entrada==salida:
     sys.exit()
-
-    
