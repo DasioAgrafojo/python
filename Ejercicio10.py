@@ -1,4 +1,8 @@
+import sys
+nombre=sys.argv[1]
+
+
 def agradecimiento(nombre):
-    nombre = input("Dame nombre: ")   
-    print ("Hola", nombre)
-agradecimiento("")
+    print("Hola", nombre)
+
+agradecimiento(nombre) 
